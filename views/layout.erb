@@ -1,8 +1,30 @@
 <html>
 	<head>
-		<title> My website without a layout</title>
+		<title> Luke Pfeiffer </title>
+     <link href="/stylesheets/javascript_page.css" rel="stylesheet" type="text/css">
+		 <link href="/stylesheets/universal.css" rel="stylesheet" type=text/css">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+			<script src="/javascripts/common.js"></script>
+			
 	</head>
-	<body>
-		<%= yield %>
-	</body>	
+<body>
+	<header>
+	Luke Pfeiffer
+		<nav>
+			<a href = "/">Home </a>	
+			<a href = "/hi">MySkateVideos </a>
+			<a href = "/hello">OtherVideos </a>
+			<a href = "/about">About </a>
+			<a href = "/javascript">JavaScript </a>
+		</nav>	
+	</header>
+	<%= yield %>
+</body>	
+<footer>
+      <a href = "/">Home </a>	
+			<a href = "/hi">MySkateVideos </a>
+			<a href = "/hello">OtherVideos </a>
+			<a href = "/about">About </a>
+			<a href = "/javascript">JavaScript </a>
+</footer>
 </html>

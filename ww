@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title> My website without a layout</title>
+		<style>
+			body{
+      background-color: #cccccc;      
+			font-family: Arial;
+			text-align: center;
+			border: solid;
+			border-color: #666666;
+			border-size: 1px
+			}	
+			header{
+			color: #000033;	
+			font-size: 50px;
+			text-align: center;
+			text-decoration: underline;
+			}
+		  a{
+      color: blue;
+			font-size: 15px;
+			font-family: Verdana;
+			}
+		</style>
+	</head>
+	<body>
+	 	<header>
+		Luke Pfeiffer
+	  	<nav>
+      	<a href = "/"> Home </a>	
+	    	<a href = "/hi"> Interests </a>
+        <a href = "/hello"> MySkateVideos </a>
+				<a href = "/about"> About </a>
+	  	</nav>	
+		</header>
+		<%= yield %>
+	</body>	
+</html>

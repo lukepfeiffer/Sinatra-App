@@ -1,0 +1,36 @@
+header{
+	font-size: 50px;
+	text-align: center;
+	padding: 20px 10px 10px 10px;
+	margin-bottom: 5px;
+	color: white;
+	margin: 0;
+	background-color: #45b4ff;
+}
+
+body{
+	background-color: #ccc;      
+	font-family: Arial;
+	text-align: center; 
+}
+
+a{
+	color: blue;
+	font-size: 16px;
+	font-family: Verdana;
+	padding: 1px;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #006;
+	text-decoration: underline;
+}
+
+footer{
+	color: red;
+	text-decoration: underline;
+	position: fixed;
+	bottom: 10;
+  width: 100%;	
+}

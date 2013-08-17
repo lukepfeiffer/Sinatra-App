@@ -1,0 +1,17 @@
+header{
+	font-size: 50px;
+	text-align: center;
+	padding: 20px 10px 10px 10px;
+}
+a{
+	color: blue;
+	font-size: 16px;
+	font-family: Verdana;
+	padding: 1px;
+	text-decoration: none;
+}
+
+footer{
+color: red;
+text-decoration: underline;
+}
