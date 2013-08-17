@@ -1,6 +1,7 @@
-button{
-  cursor: pointer;
+button:hover{
+	cursor: pointer;
 }
+
 #javascript_h1{
 	background-color: #ff4545;
 	margin: 0;
@@ -73,7 +74,7 @@ button{
 }
 
 #toggle:hover{
-  background: #f6c;
+  background: #f9f;
 }
 
 #javascript_h4{

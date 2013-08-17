@@ -9,6 +9,5 @@ $('#hide').click(function(){
 
 $('#toggle').click(function(){
 		$('h4').toggle('slow');
-
 });
 });
