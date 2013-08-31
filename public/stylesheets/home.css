@@ -25,16 +25,16 @@
 #home_li{
 	width: 50%;
 	float: right;
-	font-family: ariel;
+	font-family: arial;
   background-color: #9f6;
-	font-size: 28px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
 #home_button{
   background-color: #f78096;
   padding: 4px 5px;	
-	font-family: san-sarif;
+	font-family: sans-serif;
 	font-size: 15px;
   border-radius: 4px;
 	color: #fff;
@@ -64,6 +64,11 @@
 	color: #fff;
 }
 
+#reveal_li_3:hover{
+  cursor: pointer;
+	background: #12b812;
+}
+
 #home_li_3{
   background: #369; 
 	font-family: san-sarif;
@@ -74,11 +79,7 @@
 	width: 47%;
 }
 
-#home_li_3{
-	background: #0f0;
-}
-
-#random_page{
+#link_to_hi{
   background:-webkit-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
   padding: 8px 18px;
 	text-color: #623f1d
@@ -87,4 +88,3 @@
 	border-radius: 48px;
 	border: 1px solid #623f1d;
 }
-
